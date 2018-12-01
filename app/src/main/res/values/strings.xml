@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Panther Theatres</string>
+    <integer name="google_play_services_version">49</integer>
+    <string name="google_maps_key">AIzaSyAnhMijzo11iNQ5WEUuBYPVtnO6kr02GQ8</string>
+    <string name="locations_fragment">Locations Fragment</string>
+    <string name="feedback_fragment">Feedback Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="movies_fragment">Movies Fragment</string>
+    <string name="showtimes_fragment">Showtimes Fragment</string>
+</resources>
