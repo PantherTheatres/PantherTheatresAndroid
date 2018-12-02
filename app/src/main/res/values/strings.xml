@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Panther Theatres</string>
     <string name="google_maps_key">AIzaSyDgWKWVYUZmfhZjEnsFf48h_8VGM9OtYk0</string>
-    <string name="locations_fragment">Locations Fragment</string>
+    <string name="locations_fragment">Locations</string>
     <string name="feedback_fragment">Feedback Fragment</string>
     <string name="home_fragment">Home Fragment</string>
     <string name="movies_fragment">Movies Fragment</string>
