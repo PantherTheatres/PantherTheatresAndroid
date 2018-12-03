@@ -9,6 +9,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static boolean cameFromRegister = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new HomeFragment()).commit();
         }
+        Fragment fromRegister = null;
+        if (cameFromRegister){
+            fromRegister = new FeedbackFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    fromRegister).commit();
+
+        }
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -33,18 +42,23 @@ public class MainActivity extends AppCompatActivity {
                     switch (item.getItemId()) {
                         case R.id.nav_home:
                             selectedFragment = new HomeFragment();
+                            cameFromRegister = false;
                             break;
                         case R.id.nav_showtimes:
                             selectedFragment = new ShowtimesFragment();
+                            cameFromRegister = false;
                             break;
                         case R.id.nav_movies:
                             selectedFragment = new MoviesFragment();
+                            cameFromRegister = false;
                             break;
                         case R.id.nav_locations:
                             selectedFragment = new LocationsFragment();
+                            cameFromRegister = false;
                             break;
                         case R.id.nav_feedback:
                             selectedFragment = new FeedbackFragment();
+                            cameFromRegister = false;
                             break;
                     }
 

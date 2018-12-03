@@ -6,4 +6,5 @@
     <string name="home_fragment">Home Fragment</string>
     <string name="movies_fragment">Movies Fragment</string>
     <string name="showtimes_fragment">Showtimes Fragment</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>
