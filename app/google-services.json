@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "194428674434",
+    "firebase_url": "https://panther-theatres-1542834708580.firebaseio.com",
+    "project_id": "panther-theatres-1542834708580",
+    "storage_bucket": "panther-theatres-1542834708580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194428674434:android:d996f8d4c961b7e5",
+        "android_client_info": {
+          "package_name": "team383.edu.panthertheatres"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194428674434-8u1oe3d3ssrde22lltg14edksfgh8n1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "team383.edu.panthertheatres",
+            "certificate_hash": "35fdc27e1640949a8353c859f001398c8fda19b0"
+          }
+        },
+        {
+          "client_id": "194428674434-grvukkao2tsjfcto8i26ekq01v1vd1a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxpsguu0BDOzal3pYvr87HVPU80yg8O7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194428674434-grvukkao2tsjfcto8i26ekq01v1vd1a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

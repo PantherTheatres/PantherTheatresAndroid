@@ -1,6 +1,9 @@
 package team383.edu.panthertheatres;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -48,7 +51,7 @@ public class LocationsFragment extends Fragment implements OnMapReadyCallback {
         return view;
     }
 
-    private void initGoogleMap(Bundle savedInstanceState){
+    private void initGoogleMap(Bundle savedInstanceState) {
         // *** IMPORTANT ***
         // MapView requires that the Bundle you pass contain _ONLY_ MapView SDK
         // objects or sub-Bundles.
@@ -109,7 +112,7 @@ public class LocationsFragment extends Fragment implements OnMapReadyCallback {
         map.addMarker(new MarkerOptions()
                 .position(MENOMONEE_FALLS)
                 .title("Panther Theatres - Menomonee Falls")
-              .icon(BitmapDescriptorFactory.fromResource(R.drawable.popcorn_pin)));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.popcorn_pin)));
 
         map.addMarker(new MarkerOptions()
                 .position(SOUTH_SHORE)
@@ -126,11 +129,10 @@ public class LocationsFragment extends Fragment implements OnMapReadyCallback {
                 .title("Panther Theatres - Ridge")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.popcorn_pin)));
 
-
-         // Move map camera to 43.096506, -88.018320 (Milwaukee)
-         // Zoom levels:
-         //             10 = City detail
-         //             15 = Street-level detail
+        // Move map camera to 43.096506, -88.018320 (Milwaukee)
+        // Zoom levels:
+        //             10 = City detail
+        //             15 = Street-level detail
         CameraPosition cameraFrame = new CameraPosition.Builder()
                 .target(WAUWATOSA)      // Sets the center of the map to Wauwatosa, WI
                 .zoom(10)               // Sets the zoom
@@ -142,6 +144,25 @@ public class LocationsFragment extends Fragment implements OnMapReadyCallback {
         map.animateCamera(CameraUpdateFactory.newCameraPosition(cameraFrame));
 
 
+        /* Add the user's current location to the map
+
+        if (ActivityCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+        {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        map.setMyLocationEnabled(true);
+        */
 
     }
 
