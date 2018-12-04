@@ -6,15 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
-
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="false"
+            android:background="@drawable/app_logo" />
     </RelativeLayout>
-
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,7 +32,9 @@
             android:layout_centerVertical="true"
             android:orientation="vertical"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp">
+            android:paddingRight="15dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
 
             <EditText
                 android:id="@+id/editTextEmail"
@@ -70,8 +76,6 @@
                 android:textAlignment="center"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="@color/colorAccent" />
-
-
         </LinearLayout>
 
         <ProgressBar
@@ -81,9 +85,5 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:visibility="gone" />
-
-
     </RelativeLayout>
-
-
 </LinearLayout>
