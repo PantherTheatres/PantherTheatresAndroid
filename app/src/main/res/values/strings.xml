@@ -7,4 +7,8 @@
     <string name="movies_fragment">Movies Fragment</string>
     <string name="showtimes_fragment">Showtimes Fragment</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="showtimes_title1">Ralph Breaks the Internet</string>
+    <string name="showtimes_list1">11:15am, 1:00pm, 3:15pm 5:30pm 7:30pm, 9:30pm</string>
+    <string name="showtimes_title2">Creed II</string>
+    <string name="showtimes_list2">12:15am, 2:00pm, 4:00pm 6:00pm 8:15pm, 10:15pm</string>
 </resources>
