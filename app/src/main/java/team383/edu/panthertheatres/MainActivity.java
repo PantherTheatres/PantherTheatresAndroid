@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         Fragment fromRegister = null;
         if (cameFromRegister){
-            fromRegister = new FeedbackFragment();
+            fromRegister = new LoginFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     fromRegister).commit();
         }
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                             cameFromRegister = false;
                             break;
                         case R.id.nav_feedback:
-                            selectedFragment = new FeedbackFragment();
+                            selectedFragment = new LoginFragment();
                             cameFromRegister = false;
                             break;
                     }
