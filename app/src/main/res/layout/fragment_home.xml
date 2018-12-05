@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="50dp"
         android:text="@string/pantherText"
         tools:text="PANTHER" />
 
@@ -34,7 +34,7 @@
         android:layout_alignTop="@+id/pantherText"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="65dp"
+        android:layout_marginEnd="64dp"
         android:text="@string/theatresText"
         tools:text="THEATRES" />
 
