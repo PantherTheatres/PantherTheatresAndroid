@@ -119,8 +119,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
                         }
                     }.start();
 
-
-
                 }
                 else{
                     Toast.makeText(getActivity().getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT ).show();
