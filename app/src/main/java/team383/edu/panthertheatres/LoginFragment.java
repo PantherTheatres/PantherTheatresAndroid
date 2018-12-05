@@ -1,14 +1,17 @@
 package team383.edu.panthertheatres;
 
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.os.Bundle;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.os.CountDownTimer;
+
+
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -16,6 +19,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
 
 public class LoginFragment extends Fragment implements View.OnClickListener {
 
@@ -44,9 +48,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         mAuth = FirebaseAuth.getInstance();
 
         // Set ClickListener to Signup and Login buttons
-        getView().findViewById(R.id.buttonSignUp).setOnClickListener(this);
-        getView().findViewById(R.id.textViewLogin).setOnClickListener(this);
-
+        getView().findViewById(R.id.buttonLogin).setOnClickListener(this);
+        getView().findViewById(R.id.textViewSignup).setOnClickListener(this);
     }
 
     @Override
@@ -61,14 +64,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.buttonLogin:
                 userLogin();
-
-                // Once the login is validated, switch to the movie feedback fragment
-                /* Fragment fragment = new FeedbackFragment();
-                getGragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        fragment).commit();
-
-                */
-
                 break;
         }
     }
@@ -107,6 +102,25 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
 
+                    // Send Toast if login is successful
+                    Toast.makeText(getActivity().getApplicationContext(), "Login Successful.", Toast.LENGTH_SHORT).show();
+
+                    // Add timer to give time for Toasts before switching
+                    new CountDownTimer(2000, 1000) {
+                        public void onFinish() {
+                            // Switch back to Feedback Fragment
+                            Fragment fragment = new FeedbackFragment();
+                            getFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                                    fragment).commit();
+                        }
+                        public void onTick(long millisUntilFinished) {
+                            // millisUntilFinished    The amount of time until finished.
+                            // DO NOTHING
+                        }
+                    }.start();
+
+
+
                 }
                 else{
                     Toast.makeText(getActivity().getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT ).show();
@@ -114,4 +128,5 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             }
         });
     }
+
 }
