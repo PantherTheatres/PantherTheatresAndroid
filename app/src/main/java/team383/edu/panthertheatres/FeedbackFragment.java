@@ -14,8 +14,6 @@ public class FeedbackFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-
-
         return inflater.inflate(R.layout.fragment_feedback, container, false);
     }
 
@@ -23,7 +21,6 @@ public class FeedbackFragment extends Fragment implements View.OnClickListener {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState)
     {
       getView().findViewById(R.id.textViewSignup).setOnClickListener(this);
-
 
     }
 
@@ -33,8 +30,9 @@ public class FeedbackFragment extends Fragment implements View.OnClickListener {
         switch(view.getId())
         {
             case R.id.textViewSignup:
-                Intent intent = new Intent(getActivity(), SignUpActivity.class);
-                startActivity(intent);
+                Fragment fragment = new SignUpFragment();
+                getFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        fragment).commit();
                 break;
         }
     }
