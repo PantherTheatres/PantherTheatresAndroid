@@ -10,7 +10,7 @@
     <string name ="have_an_account">Already have an account? Login</string>
     <string name ="email">email</string>
     <string name ="logoDescriptor">Join logo</string>
-    <string name ="pantherlogo1">Panther Logo</string>
-    <string name="panther">TextView</string>
-    <string name="theatres">THEATRES</string>
+    <string name ="pantherLogo1">Panther Logo</string>
+    <string name="pantherText">PANTHER</string>
+    <string name="theatresText">THEATRES</string>
 </resources>
