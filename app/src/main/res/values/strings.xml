@@ -23,11 +23,44 @@
 
     <!-- Show 1 -->
     <string name="showtimes_title1">Ralph Breaks the Internet</string>
+    <string name="movies_genre1">Comedy/Family</string>
+    <string name="movies_runtime1">1h 56m</string>
     <string name="showtimes_list1">11:15am, 1:00pm, 3:15pm 5:30pm 7:30pm, 9:30pm</string>
     <string name="movies_synopsis1">A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.</string>
 
     <!-- Show 2 -->
     <string name="showtimes_title2">Creed II</string>
+    <string name="movies_genre2">Drama/Action</string>
+    <string name="movies_runtime2">2h 10m</string>
     <string name="showtimes_list2">12:15am, 2:00pm, 4:00pm 6:00pm 8:15pm, 10:15pm</string>
     <string name="movies_synopsis2">Under the tutelage of Rocky Balboa, light heavyweight contender Adonis Creed faces off against Viktor Drago, the son of Ivan Drago.</string>
+
+    <!-- Show 3 -->
+    <string name="showtimes_title3">The Grinch</string>
+    <string name="movies_genre3">Comedy/Family</string>
+    <string name="movies_runtime3">1h 45m</string>
+    <string name="showtimes_list3">11:15am, 1:00pm, 4:30pm, 6:45pm, 9:15pm</string>
+    <string name="movies_synopsis3">The Grinch and his loyal dog, Max, live a solitary existence inside a cave on Mount Crumpet. His main source of aggravation comes during Christmastime when his neighbors in Whoville celebrate the holidays with a bang. When the Whos decide to make Christmas bigger and brighter, the disgruntled Grinch realizes there is one way to gain peace and quiet. </string>
+
+    <!-- Show 4 -->
+    <string name="showtimes_title4">Fantastic Bests: The Crimes of Grindelwald</string>
+    <string name="movies_genre4">Drama/Fantasy</string>
+    <string name="movies_runtime4">2h 13m</string>
+    <string name="showtimes_list4">2:00pm, 3:50pm, 5:00pm, 7:30pm, 8:00pm, 10:35pm, 11:00pm</string>
+    <string name="movies_synopsis4">In an effort to thwart Grindelwald\'s plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. </string>
+
+    <!-- Show 5 -->
+    <string name="showtimes_title5">The Possession of Hannah Grace</string>
+    <string name="movies_genre5">Mystery/Thriller</string>
+    <string name="movies_runtime5">1h 26m</string>
+    <string name="showtimes_list5">1:15pm, 3:30pm, 5:20pm, 7:50pm, 10:10pm</string>
+    <string name="movies_synopsis5">A shocking exorcism spirals out of control, claiming the life of a young woman. Months later, morgue worker Megan Reed takes delivery of a disfigured cadaver during the graveyard shift. Locked inside the basement corridors, Megan\'s horrifying visions soon lead her to believe that the body is possessed by a demonic force.</string>
+
+    <!--- Show 6 -->
+    <string name="showtimes_title6">Bohemian Rhapsody</string>
+    <string name="movies_genre6">Drama/Biography</string>
+    <string name="movies_runtime6">2h 13m</string>
+    <string name="showtimes_list6">4:00pm, 5:30pm, 7:00pm, 10:00pm, 11:00pm</string>
+    <string name="movies_synopsis6">Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury. Freddie defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. </string>
+
 </resources>
