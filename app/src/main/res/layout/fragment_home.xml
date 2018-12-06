@@ -53,5 +53,26 @@
         android:typeface="serif"
         tools:text="Something More In Movies" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="277dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/pantherText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-200dp"
+        android:layout_marginBottom="195dp"
+        android:text="TextView"
+        tools:text="Sign up for our FREE Rewards program to receive premium perks. Our membership includes $5 Ticket Tuesdays.  " />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="Button"
+        tools:text="Join Now" />
+
 </RelativeLayout>
 
