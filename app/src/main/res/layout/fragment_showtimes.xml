@@ -44,6 +44,8 @@
                 android:layout_width="0dp"
                 android:layout_weight=".65"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -51,13 +53,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/showtimes_title1"
-                    android:textSize="24sp" />
+                    tools:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/times1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/showtimes_list1"
+                    tools:textColor="@android:color/black"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
@@ -91,6 +96,8 @@
                 android:layout_width="0dp"
                 android:layout_weight=".65"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -98,13 +105,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/showtimes_title2"
-                    android:textSize="24sp" />
+                    tools:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/times2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/showtimes_list2"
+                    tools:textColor="@android:color/black"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
