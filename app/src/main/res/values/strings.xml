@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Panther Theatres</string>
-    <string name="google_maps_key">AIzaSyBGoYc6YcqM_CUGtvVYNMywg--gTMMAF6I</string>
+    <string name="google_maps_key">AIzaSyDgWKWVYUZmfhZjEnsFf48h_8VGM9OtYk0</string>
     <string name="locations_fragment">Locations</string>
     <string name="feedback_fragment">Feedback</string>
     <string name="home_fragment">Home</string>
@@ -10,19 +10,7 @@
     <string name ="have_an_account">Already have an account? Login</string>
     <string name ="email">email</string>
     <string name ="logoDescriptor">Join logo</string>
-    <string name ="signup_button_text">Sign Up</string>
-    <string name="btn_feedback">Leave Feedback</string>
-    <!-- Ratings -->
-    <string name="rating_g">Rated G</string>
-    <string name="rating_pg">Rated PG</string>
-    <string name="rating_pg13">Rated PG-13</string>
-    <string name="rating_r">Rated R</string>
-    <!-- Show 1 -->
-    <string name="showtimes_title1">Ralph Breaks the Internet</string>
-    <string name="showtimes_list1">11:15am, 1:00pm, 3:15pm 5:30pm 7:30pm, 9:30pm</string>
-    <string name="movies_synopsis1">A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.</string>
-    <!-- Show 2 -->
-    <string name="showtimes_title2">Creed II</string>
-    <string name="showtimes_list2">12:15am, 2:00pm, 4:00pm 6:00pm 8:15pm, 10:15pm</string>
-    <string name="movies_synopsis2">Under the tutelage of Rocky Balboa, light heavyweight contender Adonis Creed faces off against Viktor Drago, the son of Ivan Drago.</string>
+    <string name ="pantherLogo1">Panther Logo</string>
+    <string name="pantherText">PANTHER</string>
+    <string name="theatresText">THEATRES</string>
 </resources>
