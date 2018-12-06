@@ -19,18 +19,19 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
-        //I added this if statement to keep the selected fragment when rotating the device
+        // I added this if statement to keep the selected fragment when rotating the device
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new HomeFragment()).commit();
         }
+
         Fragment fromRegister = null;
         if (cameFromRegister){
-            fromRegister = new FeedbackFragment();
+            fromRegister = new LoginFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     fromRegister).commit();
-
         }
+
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                             cameFromRegister = false;
                             break;
                         case R.id.nav_feedback:
-                            selectedFragment = new FeedbackFragment();
+                            selectedFragment = new LoginFragment();
                             cameFromRegister = false;
                             break;
                     }

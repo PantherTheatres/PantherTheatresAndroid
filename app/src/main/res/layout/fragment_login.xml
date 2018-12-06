@@ -36,6 +36,7 @@
             android:clickable="true"
             android:focusableInTouchMode="true">
 
+
             <EditText
                 android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
@@ -57,22 +58,22 @@
                 android:textColorHint="@color/colorAccent" />
 
             <Button
-                android:id="@+id/buttonSignUp"
+                android:id="@+id/buttonLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="7dp"
                 android:background="@drawable/rounded_button_transparent"
-                android:text="Sign Up"
+                android:text="Login"
                 android:textAllCaps="false"
                 android:textColor="@color/colorAccent" />
 
             <TextView
-                android:id="@+id/textViewLogin"
+                android:id="@+id/textViewSignup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="15dp"
-                android:text="Already have an account? Login"
+                android:padding="10dp"
+                android:text="Don't have account? Sign Up"
                 android:textAlignment="center"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="@color/colorAccent" />

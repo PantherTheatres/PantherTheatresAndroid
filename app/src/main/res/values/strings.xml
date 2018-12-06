@@ -2,9 +2,13 @@
     <string name="app_name">Panther Theatres</string>
     <string name="google_maps_key">AIzaSyBGoYc6YcqM_CUGtvVYNMywg--gTMMAF6I</string>
     <string name="locations_fragment">Locations</string>
-    <string name="feedback_fragment">Feedback Fragment</string>
-    <string name="home_fragment">Home Fragment</string>
-    <string name="movies_fragment">Movies Fragment</string>
-    <string name="showtimes_fragment">Showtimes Fragment</string>
-    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="feedback_fragment">Feedback</string>
+    <string name="home_fragment">Home</string>
+    <string name="movies_fragment">Movies</string>
+    <string name="showtimes_fragment">Showtimes</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name ="have_an_account">Already have an account? Login</string>
+    <string name ="email">email</string>
+    <string name ="logoDescriptor">Join logo</string>
+    <string name ="signup_button_text">Sign Up</string>
 </resources>
