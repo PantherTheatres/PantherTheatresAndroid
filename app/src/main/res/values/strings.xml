@@ -14,6 +14,9 @@
     <string name="pantherText">PANTHER</string>
     <string name="theatresText">THEATRES</string>
     <string name="btn_feedback">Leave Feedback</string>
+    <string name="home_slogan">Something More in Movies</string>
+    <string name="home_join_button">Join Now</string>
+    <string name="home_tuesdays">Sign up for our FREE Rewards program to receive premium perks. Our membership includes $5 Ticket Tuesdays.</string>
 
     <!-- Ratings -->
     <string name="rating_g">Rated G</string>

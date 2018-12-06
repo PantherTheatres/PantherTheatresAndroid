@@ -24,45 +24,42 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="48dp"
         android:layout_marginTop="50dp"
-        android:textColor="#FFFFFF"
         android:text="@string/pantherText"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         tools:text="PANTHER" />
 
     <TextView
         android:id="@+id/theatresText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
         android:layout_alignTop="@+id/pantherText"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="59dp"
-        android:textColor="#FFFFFF"
         android:text="@string/theatresText"
-        tools:text="THEATRES" />
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="206dp"
-        android:text="TextView"
+        android:text="Something More In Movies"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:typeface="serif"
-        tools:text="Something More In Movies" />
+        android:textSize="26sp"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="277dp"
-        android:layout_height="63dp"
-        android:layout_alignEnd="@+id/pantherText"
+        android:layout_width="297dp"
+        android:layout_height="93dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-200dp"
-        android:layout_marginBottom="195dp"
-        android:text="TextView"
-        tools:text="Sign up for our FREE Rewards program to receive premium perks. Our membership includes $5 Ticket Tuesdays.  " />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:text="@string/home_tuesdays"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/button"
@@ -70,9 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="126dp"
-        android:text="Button"
-        tools:text="Join Now" />
+        android:layout_marginBottom="76dp"
+        android:text="@string/home_join_button" />
 
 </RelativeLayout>
 
