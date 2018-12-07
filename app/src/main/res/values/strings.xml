@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Panther Theatres</string>
     <string name="google_maps_key">AIzaSyDgWKWVYUZmfhZjEnsFf48h_8VGM9OtYk0</string>
+    <string name="TMDB_key">cec5654311f41d1470c7a716838b896b</string>
     <string name="locations_fragment">Locations</string>
     <string name="feedback_fragment">Feedback</string>
     <string name="home_fragment">Home</string>
@@ -14,7 +15,7 @@
     <string name="pantherText">PANTHER</string>
     <string name="theatresText">THEATRES</string>
     <string name="btn_feedback">Leave Feedback</string>
-    <string name="home_slogan">Something More in Movies</string>
+    <string name="home_slogan">Something More in Movies...</string>
     <string name="home_join_button">Join Now</string>
     <string name="home_tuesdays">Sign up for our FREE Rewards program to receive premium perks. Our membership includes $5 Ticket Tuesdays.</string>
 

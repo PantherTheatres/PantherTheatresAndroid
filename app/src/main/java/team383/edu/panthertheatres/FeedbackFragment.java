@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+
 
 public class FeedbackFragment extends Fragment implements View.OnClickListener {
 
@@ -21,9 +24,9 @@ public class FeedbackFragment extends Fragment implements View.OnClickListener {
 
 
     }
+
     @Override
-    public void onClick(View view) {
+    public void onClick (View view){
 
     }
 }
-

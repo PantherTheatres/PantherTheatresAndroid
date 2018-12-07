@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@color/colorPrimaryDark">
 
     <ImageView
         android:id="@+id/imageView"
@@ -42,33 +42,37 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="66dp"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="206dp"
-        android:text="Something More In Movies"
+        android:text="@string/home_slogan"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
         android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="297dp"
-        android:layout_height="93dp"
+        android:layout_width="325dp"
+        android:layout_height="129dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="165dp"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="129dp"
         android:text="@string/home_tuesdays"
-        android:textSize="16sp" />
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="133dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="76dp"
-        android:text="@string/home_join_button" />
+        android:layout_marginTop="-129dp"
+        android:text="@string/home_join_button"
+        android:textSize="18sp"/>
 
 </RelativeLayout>
 
