@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                             selectedFragment = new LocationsFragment();
                             cameFromRegister = false;
                             break;
-                        case R.id.nav_feedback:
+                        case R.id.nav_account:
                             selectedFragment = new LoginFragment();
                             cameFromRegister = false;
                             break;

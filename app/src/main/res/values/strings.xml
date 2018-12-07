@@ -14,7 +14,15 @@
     <string name ="pantherLogo1">Panther Logo</string>
     <string name="pantherText">PANTHER</string>
     <string name="theatresText">THEATRES</string>
+    <string name="btn_changePassword">CHANGE PASSWORD</string>
     <string name="btn_feedback">Leave Feedback</string>
+    <string name="btn_issues">Contact Support</string>
+    <string name="btn_changeAvatar">CHANGE AVATAR</string>
+    <string name="username">Welcome, User102853!</string>
+    <string name="joinDate">JOINED DECEMBER 6, 2018</string>
+    <string name="points">Loyalty Points: 1,750</string>
+    <string name="btn_redeemPoints">REDEEM LOYALTY POINTS</string>
+    <string name="loyaltyProgram">Thank you for joining our loyalty program! Here you can view your user profile, change your password, and redeem your loyalty points.</string>
     <string name="home_slogan">Something More in Movies...</string>
     <string name="home_join_button">Join Now</string>
     <string name="home_tuesdays">Sign up for our FREE Rewards program to receive premium perks. Our membership includes $5 Ticket Tuesdays.</string>

@@ -109,7 +109,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
                     new CountDownTimer(2000, 1000) {
                         public void onFinish() {
                             // Switch back to Feedback Fragment
-                            Fragment fragment = new FeedbackFragment();
+                            Fragment fragment = new ProfileFragment();
                             getFragmentManager().beginTransaction().replace(R.id.fragment_container,
                                     fragment).commit();
                         }
